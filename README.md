@@ -1,4 +1,4 @@
-# DataScienceIntensive
+# Data Science Intensive
 ======================
 
-This is my demo.
+This is my work demo from Data Science Intensive Workshops.
