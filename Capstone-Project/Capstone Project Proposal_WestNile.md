@@ -29,7 +29,7 @@ Use supervised learning such as random forest, support vector machine to build p
 between different models and figure out the most informative features. 
 
 
-5. What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck.
+####5. What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck.
 The deliverables are composed of three parts:
 (1) Github repository stores codes for analysis
 (2) A write up describes analysis process, results and insights
