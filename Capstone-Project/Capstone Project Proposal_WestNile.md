@@ -26,13 +26,13 @@ Second part of data comes from Twitter:
 For example, the number of times people mentioned nail virus in their posts.
 
 ####4. In brief, outline your approach to solving this problem (knowing that this might change later).####
-*Use statisical analysis and unsupervised clustering to do exploring analysis to detect the popential patterns in features
-*Use supervised learning such as random forest, support vector machine to build predictiv model. Compare the performance
+* Use statisical analysis and unsupervised clustering to do exploring analysis to detect the popential patterns in features
+* Use supervised learning such as random forest, support vector machine to build predictiv model. Compare the performance
 between different models and figure out the most informative features. 
 
 
 ####5. What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck.####
-The deliverables are composed of three parts:
+The deliverables are composed of three/four  parts:
  1. Github repository stores codes for analysis
  2. A write up describes analysis process, results and insights
  3. A slide deck
