@@ -1,5 +1,5 @@
-##Kaggle: West Nile Virus Prediction
-Predict West Nile virus in mosquitos across the city of Chicago
+###Kaggle: West Nile Virus Prediction
+#Predict West Nile virus in mosquitos across the city of Chicago
 https://www.kaggle.com/c/predict-west-nile-virus
 
 1. What is the problem you want to solve
@@ -31,7 +31,7 @@ between different models and figure out the most informative features.
 
 5. What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck.
 The deliverables are composed of three parts:
-1. Github repository stores codes for analysis
-2. A write up describes analysis process, results and insights
-3. A slide deck
-4. A website shows real-time prediction based upon the analysis
+(1) Github repository stores codes for analysis
+(2) A write up describes analysis process, results and insights
+(3) A slide deck
+(4) A website shows real-time prediction based upon the analysis
