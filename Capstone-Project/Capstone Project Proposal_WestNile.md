@@ -1,5 +1,4 @@
 #Kaggle: West Nile Virus Prediction#
-=====================================
 
 ##Predict West Nile virus in mosquitos across the city of Chicago##
 https://www.kaggle.com/c/predict-west-nile-virus
