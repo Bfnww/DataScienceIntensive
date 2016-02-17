@@ -16,12 +16,12 @@ resourses to the locations with the highest probability  of virus eruption.
 
 
 ####3. What data are you going to use for this? How will you acquire this data?####
-First part of data comes from Kaggle website:
+* First part of data comes from Kaggle website:
  1. Main dataset
  2. Spray data
  3. Weather Data 2007 to 2014
  4. Map data for visualization
-Second part of data comes from Twitter:
+* Second part of data comes from Twitter:
 For example, the number of times people mentioned nail virus in their posts.
 
 ####4. In brief, outline your approach to solving this problem (knowing that this might change later).####
