@@ -1,0 +1,25 @@
+-- This for third part
+  select events_week.*,coalesce(events_first_day.first_day_week,'2014-04-28') first_day_of_week,
+  case when device in ('macbook air','macbook pro','acer aspire notebook','acer aspire desktop','asus chromebook','mac mini',
+                       'hp pavilion desktop','dell inspiron desktop','lenovo thinkpad','dell inspiron notebook') then 'computer'
+  when device in ('nexus 5','iphone 5s','iphone 4s','samsung galaxy s4','samsung galaxy note','htc one','amazon fire phone','iphone 5','nokia lumia 635') then 'phone'
+  when device in ('ipad air','nexus 7','nexus 10','kindle fire','windows surface','ipad mini','samsumg galaxy tablet') then 'tablet'
+  end device_type
+  from
+    (
+      Select *,
+      (cast(occurred_at as date)-'7/21/2014')%7 weekday,
+      (cast(occurred_at as date)-'7/21/2014')/7 week
+      FROM tutorial.yammer_events
+      where cast(occurred_at as date)>='7/21/2014'
+    )  events_week
+  left join
+    (
+      Select cast(occurred_at as date) first_day_week,
+      (cast(occurred_at as date)-'7/21/2014')%7 weekday,
+      (cast(occurred_at as date)-'7/21/2014')/7 week
+      FROM tutorial.yammer_events
+      where cast(occurred_at as date)>='7/21/2014'
+    ) events_first_day
+  on events_week.week=events_first_day.week
+  and events_first_day.weekday=0
