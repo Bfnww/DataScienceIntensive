@@ -1,0 +1,6 @@
+Harvard class project
+http://project.chanceme.info/
+
+
+Polished jupyter presentations with optional code visibility
+http://chris-said.io/2016/02/13/how-to-make-polished-jupyter-presentations-with-optional-code-visibility/
